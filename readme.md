@@ -3,8 +3,11 @@ React-native, Apollo-Server, graphql, MongoDB Atlas
 
 # References
 MongoDB Hosting: Database-as-a-Service by mLab: https://mlab.com/
+
 Clusters | Atlas: MongoDB Atlas: https://cloud.mongodb.com/v2/5e81b940bc13d933ad47159c#clusters
+
 How to setup a online Mongo-DB database using mLab.: https://medium.com/@alialhaddad/how-to-setup-a-online-mongo-db-database-using-mlab-24bb583720ba
+
 Beginner’s Guide to GraphQL in React Native & React(1/3)(Updated): https://medium.com/@alialhaddad/beginners-guide-to-graphql-in-react-native-react-1-3-21bd431e0fc7
 
 Load File with mongoimport — MongoDB Atlas: https://docs.atlas.mongodb.com/import/mongoimport/
@@ -29,6 +32,9 @@ Now setup your package.json with by adding a start property in your scripts prop
 
 ## Server folder
 typeDefs.js — file which will hold your type definitions for your schema.
+
 resolvers.js — file which will indicate how the schema’s fields are executed.
+
 connectors.js  — file which will connect to your database and then define your Player model to retrieve data from the database.
+
 index.js  — start building our server, and configure it by creating basic type definitions and resolvers to just to get our server working.
